@@ -1,0 +1,170 @@
+/* ==========================
+   L'Mima Tanya - Style
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#F8F2E7;
+    color:#5b2c1f;
+    text-align:center;
+}
+
+/* HERO */
+
+.hero{
+    padding:50px 20px 30px;
+}
+
+.logo{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    background:white;
+    padding:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:40px;
+    color:#8E2C24;
+    margin-bottom:15px;
+}
+
+.slogan{
+    font-size:18px;
+    color:#6b5d52;
+    max-width:600px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* BUTTONS */
+
+.buttons{
+    width:90%;
+    max-width:500px;
+    margin:40px auto;
+}
+
+.btn{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    font-size:18px;
+
+    margin-bottom:18px;
+
+    transition:.35s;
+
+    font-weight:bold;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.20);
+
+}
+
+.whatsapp{
+
+    background:#25D366;
+
+}
+
+.phone{
+
+    background:#8E2C24;
+
+}
+
+.instagram{
+
+background:linear-gradient(45deg,#F58529,#DD2A7B,#8134AF,#515BD4);
+
+}
+
+.tiktok{
+
+background:#111;
+
+}
+
+.facebook{
+
+background:#1877F2;
+
+}
+
+.maps{
+
+background:#CFA15B;
+
+color:#4a2d15;
+
+}
+
+/* FOOTER */
+
+footer{
+
+padding:35px;
+
+font-size:15px;
+
+color:#7a6c5d;
+
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+.hero h1{
+
+font-size:32px;
+
+}
+
+.logo{
+
+width:140px;
+
+height:140px;
+
+}
+
+.btn{
+
+font-size:17px;
+
+padding:16px;
+
+}
+
+}
